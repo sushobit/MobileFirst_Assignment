@@ -1,0 +1,51 @@
+/* styles.css */
+
+
+.homepage {
+  background: linear-gradient(135deg, #8a2be2, #800000);
+  color: #fff; /* Text color */
+  min-height: 100vh; /* Ensure full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.product-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.pagination {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination li {
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination li:hover,
+.pagination li.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
