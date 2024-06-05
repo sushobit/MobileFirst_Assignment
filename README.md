@@ -4,8 +4,8 @@
 ## Features
 
 - **Google Login**: Implemented Google OAuth for user authentication.
-- **API Integration**: Integrated [API Name] to fetch [data/information].
-- **Pagination**: Implemented pagination for displaying [list/table/etc.].
+- **API Integration**: Integrated FakeAPI to fetch information.
+- **Pagination**: Implemented pagination for displaying products.
 - **Mobile Responsiveness**: Designed to be fully responsive for mobile devices.
 
 ## Video 
